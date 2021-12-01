@@ -1,4 +1,3 @@
-import Bar from "../components/Bar";
 import { achievements, languages, tools } from "../data";
 import { motion } from "framer-motion";
 import { routeAnimation, slidingUp } from "../animations";
@@ -56,8 +55,8 @@ const resume = () => {
               Developed Front-End for the project Thesis Selection App
             </p>
             <p className="flex items-center px-4 py-1 text-lg">
-              <BsCircleFill size={10} className="mr-3 align-middle" /> Designed
-              Use-cases and other UML diagrams for project's analysis
+              <BsCircleFill size={10} className="mr-3 align-middle" />
+              Designed Use-cases and other UML diagrams for projects analysis
             </p>
           </div>
         </motion.div>

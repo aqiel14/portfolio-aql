@@ -64,7 +64,7 @@ export default index;
 //   const res = await fetch("http://localhost:3000/api/services");
 //   const data = await res.json();
 
-//   console.log("SERVER", services);
+//   // console.log("SERVER", services);
 //   return {
 //     props: {
 //       services: data.services,

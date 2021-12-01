@@ -94,6 +94,19 @@ export const tools: ISkill[] = [
   },
 ];
 
+export const achievements: ISkill[] = [
+  {
+    Icon: BsCircleFill,
+    name: "TOEFL ITP Score : 607",
+    level: "85",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Telkom University English Proficiency Test Score : 600",
+    level: "85",
+  },
+];
+
 export const projects: IProject[] = [
   {
     id: 1,

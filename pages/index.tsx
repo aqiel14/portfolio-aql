@@ -13,16 +13,16 @@ const index = () => {
       animate="animate"
       exit="exit"
     >
-      <h5 className="my-3 text-base font-medium">
+      <h5 className="my-3 text-xl font-base">
         A Fresh Graduate from Telkom University, Have a high interest for web
         app development, both Frontend and the Backend aspect. Specializing in
         React Single Page Application development.
       </h5>
       <div
-        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
+        className="flex-grow p-4 mt-5 bg-concretesky-2 dark:bg-dark-100"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h6 className="my-3 text-xl font-bold tracking-wide">About</h6>
+        <h6 className="my-3 text-xl font-bold tracking-wide">Skills</h6>
         <motion.div
           className="grid gap-6 lg:grid-cols-2"
           variants={stagger}

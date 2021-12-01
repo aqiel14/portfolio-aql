@@ -6,9 +6,9 @@ const NonBar: FunctionComponent<{ data: ISkill }> = ({
   data: { Icon, name },
 }) => {
   return (
-    <div className="my-2 bg-gray-300 rounded-full dark:text-white dark:bg-dark-300 dark:bg-black-500">
-      <motion.div className="flex items-center px-4 py-1 rounded-full">
-        <Icon className="mr-3" /> {name}
+    <div className="my-2 rounded-full dark:text-white dark:bg-dark-300 dark:bg-black-500">
+      <motion.div className="flex items-center px-4 py-1 text-lg rounded-full">
+        <Icon size={10} className="mr-3" /> {name}
       </motion.div>
     </div>
   );

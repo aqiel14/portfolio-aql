@@ -54,7 +54,9 @@ const Experience = () => {
                 {item.companyDescription}
               </p>
               {item.jobdesc.map((jobdesc, i) => (
-                <p className="!text-sm">• {jobdesc}</p>
+                <p className="!text-sm" key={i}>
+                  • {jobdesc}
+                </p>
               ))}
             </VerticalTimelineElement>
           </React.Fragment>

@@ -35,27 +35,37 @@ export const links = [
 export const experiencesData = [
   {
     title: "Front End Developer Intern",
-    location: "Telkom University Faculty of Industry Engineering",
-    description: "Developed Front-End for the project Thesis Selection App",
+    company: "Telkom University Faculty of Industry Engineering",
+    companyDescription:
+      "The Faculty of Industrial Engineering (FRI) is one of the first faculties formed at Telkom University.",
+    jobdesc: [
+      "Developed Front-End for the project Thesis Selection App",
+      "Designed Use-cases and other UML diagrams for project's analysis",
+    ],
     icon: React.createElement(CgWorkAlt),
     date: "Jun 2020 - Aug 2020",
   },
   {
     title: "Graduated University",
-    location: "Telkom University",
-    description:
-      "I graduated after 4 years of studying. achieved a GPA of 3.41.",
+    company: "Telkom University",
+    companyDescription:
+      "Telkom University is a private university located in Bandung Regency, West Java, Indonesia.",
+    jobdesc: [
+      "Former member of the 2020 Students Association Of Information Systems",
+      "Achieved perfect score of 600 on Telkom University English Proficiency Test",
+      "Achieved score of 607 on the TOEFL ITP® test",
+    ],
     icon: React.createElement(LuGraduationCap),
     date: "Aug 2017 - Nov 2021",
   },
   {
     title: "Software Developer",
-    location: "Commsult AG",
-    description:
+    company: "Commsult AG",
+    companyDescription:
       "Commsult AG is a German company specializing in mobile software with SAP and other systems in warehouse, production, service and delivery logistics.",
     jobdesc: [
       "Helped developed the project Akomate, an all-in-one Hotel management software with more than 21 features, namely Accounting, Booking, Auditing and more.",
-      "Helped developed the software Ontego Traces (traces.ontego.de), a module within the SAP Business Suite, a solution for logistics and services systems. Ontego Traces is a fully integrated software solution for planning, tracking & optimizing beverage routes and fully automated delivery time notification for end customers.",
+      "Helped developed the software Ontego Traces (traces.ontego.de), a module within the Ontego Business Suite, a solution for logistics and services systems. Ontego Traces is a fully integrated software solution for planning, tracking & optimizing beverage routes and fully automated delivery time notification for end customers.",
     ],
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2022 - Oct 2023",

@@ -13,7 +13,7 @@ const useSectionInView = (sectionName: SectionName, threshold = 0.75) => {
     if (inView && Date.now() - timeOfLastClick > 1000) {
       setActiveSection(sectionName);
     }
-  }, [inView, sectionName]);
+  }, [inView, sectionName, setActiveSection, timeOfLastClick]);
 
   return {
     ref,

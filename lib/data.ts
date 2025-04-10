@@ -70,6 +70,18 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2022 - Oct 2023",
   },
+  {
+    title: "Full Stack Developer",
+    company: "Platon.id",
+    companyDescription:
+      "Platon.id is an IT consulting company that specializes in creating customized solutions, including landing pages, inventory management systems, and e-commerce platforms",
+    jobdesc: [
+      "Assigned to develop the software IMS(Integrated Monitoring System) for PT. Harmoni Nasional Teknologi Indonesia, an ERP app to monitor their sales",
+      "Helped developed the software for BKM (PT Berkat Karimar Mandiri), an ERP app for handling logistics of their palm oil transportation",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2023 - Dec 2024",
+  },
 ] as const;
 
 export const projectsData = [

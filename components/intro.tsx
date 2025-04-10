@@ -28,7 +28,7 @@ const Intro = () => {
           <div className="relative">
             <Image
               alt="Headshot"
-              src="https://i.imgur.com/SVgK2ku.jpg"
+              src="/me.png"
               width="192"
               height="192"
               priority={true}
@@ -45,8 +45,8 @@ const Intro = () => {
         <span className="font-bold">Hello, I'm Aqiel.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        building <span className="italic">sites & apps</span>. With a strong focus on{" "}
+        <span className="underline">React & Next.js</span>.
       </motion.h1>
 
       <motion.div

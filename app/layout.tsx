@@ -12,6 +12,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Aqiel | Personal Portfolio",
   description: "Aqiel is a full-stack developer with 2 years of experience.",
+  images: [
+    {
+      url: '/thumbnail.png',
+      width: 1200,
+      height: 630,
+      alt: 'An image description',
+    },
+  ],
+  type: 'website',
 };
 
 export default function RootLayout({

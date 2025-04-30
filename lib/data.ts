@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
+import thebigday from "@/public/thebigday.png";
 import isyenursery from "@/public/isyenursery.png";
 import remgas from "@/public/remgas.png";
 import ums from "@/public/ums.png";
@@ -85,6 +86,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "The Big Day",
+    description:
+      "The Big Day (thebigday.id) — An ongoing personal side-business platform offering client-based digital wedding invitations. Personally designed and developed various wedding invitation themes, from traditional to modern styles with React,Next.js & Tailwind",
+    tags: ["Next", "Tailwind", "Framer Motion", "ShadCN"],
+    imageUrl: thebigday,
+  },
   {
     title: "UMKM Management Software",
     description:

@@ -28,11 +28,11 @@ const Intro = () => {
           <div className="relative">
             <Image
               alt="Headshot"
-              src="/me.png"
-              width="192"
-              height="192"
+              src="/me.jpg"
+              width="256"
+              height="256"
               priority={true}
-              className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
+              className="h-48 w-48 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
             />
           </div>
         </motion.div>
@@ -45,8 +45,8 @@ const Intro = () => {
         <span className="font-bold">Hello, I'm Aqiel,</span> a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. With a strong focus on{" "}
-        <span className="underline">React & Next.js</span>.
+        building <span className="italic">sites & apps</span>. With a strong
+        focus on <span className="underline">React & Next.js</span>.
       </motion.h1>
 
       <motion.div
